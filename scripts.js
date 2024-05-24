@@ -26,4 +26,23 @@ const names = [
     { product: "coffee", price: "10" },
     { product: "tea", price: "12" },
   ];
+
+  // Using forEach:
+
+console.log("Names:");
+names.forEach((name) => {
+  console.log(name);
+});
+
+console.log(" ");
+console.log("Provinces:");
+provinces.forEach((province) => {
+  console.log(province || "No province");
+});
+
+console.log(" ");
+console.log("Names Linked to Respective Provinces:");
+names.forEach((name, index) => {
+  console.log(`${name} (${provinces[index] || "No province"})`);
+});
   

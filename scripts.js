@@ -81,6 +81,15 @@ console.log("\nFinding 'S': ");
 const namesWithS = names.map((name) => name.includes("S"));
 console.log("Names with 'S':", namesWithS);
 
+//Object Mapping using reduce:
+
+console.log("\nObject Mapping:");
+const nameByProvince = names.reduce((acc, name, index) => {
+  acc[name] = provinces[index];
+  return acc;
+}, {});
+console.log("Names mapped to provinces:", nameByProvince);
+
 
 
   

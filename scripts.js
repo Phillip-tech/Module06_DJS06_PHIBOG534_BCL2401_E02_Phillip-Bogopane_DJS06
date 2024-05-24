@@ -75,6 +75,12 @@ const filteredProvinces = provinces.filter(
 console.log("Provinces without 'Cape':", filteredProvinces);
 console.log("Remaining provinces count:", filteredProvinces.length);
 
+//Finding 'S' using map and some:
+
+console.log("\nFinding 'S': ");
+const namesWithS = names.map((name) => name.includes("S"));
+console.log("Names with 'S':", namesWithS);
+
 
 
   

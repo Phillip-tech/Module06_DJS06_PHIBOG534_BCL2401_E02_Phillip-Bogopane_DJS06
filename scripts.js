@@ -1,5 +1,5 @@
 
-
+// Array containing names.
 const names = [
     "Ashwin",
     "Sibongile",
@@ -9,6 +9,7 @@ const names = [
     "Frikkie",
   ];
   
+  // Array containing provinces.
   const provinces = [
     "Western Cape",
     "Gauteng",
@@ -18,6 +19,7 @@ const names = [
     "Free State",
   ];
   
+  // Array of objects representing various products with their respective prices.
   const products = [
     { product: "banana", price: "2" },
     { product: "mango", price: "6" },
@@ -89,6 +91,7 @@ const nameByProvince = names.reduce((acc, name, index) => {
   return acc;
 }, {});
 console.log("Names mapped to provinces:", nameByProvince);
+
 
 //Advanced Exercises (Single console.log Execution):
 

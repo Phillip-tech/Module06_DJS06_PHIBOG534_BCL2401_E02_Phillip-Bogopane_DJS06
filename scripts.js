@@ -90,6 +90,30 @@ const nameByProvince = names.reduce((acc, name, index) => {
 }, {});
 console.log("Names mapped to provinces:", nameByProvince);
 
+//Advanced Exercises (Single console.log Execution):
+
+console.log(
+    products.map((product) => product.product),
+    products.filter((product) => product.product.length <= 5),
+    products
+      .filter((product) => !isNaN(product.price))
+      .reduce((total, product) => total + Number(product.price), 0),
+    products.reduce((acc, product) => acc + product.product + "", "").trim(),
+    (() => {
+      const sortedPrices = products
+        .map((product) => Number(product.price))
+        .sort((a, b) => a - b);
+      return `Highest: ${sortedPrices[sortedPrices.length - 1]}. Lowest: ${
+        sortedPrices[0]
+      }`;
+    })(),
+    Object.entries(products).reduce((acc, [key, value]) => {
+      acc.push({ name: value.product, cost: value.price });
+      return acc;
+    }, [])
+  );
+  
+
 
 
   

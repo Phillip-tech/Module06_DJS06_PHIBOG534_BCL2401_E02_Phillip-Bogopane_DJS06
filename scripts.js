@@ -66,6 +66,15 @@ console.log("\nSorting:");
 const sortedProvinces = [...provinces].sort();
 console.log("Alphabetically sorted provinces:", sortedProvinces);
 
+//Filtering Cape using filter:
+
+console.log("\nFiltering Cape: ");
+const filteredProvinces = provinces.filter(
+  (province) => !province.includes("Cape")
+);
+console.log("Provinces without 'Cape':", filteredProvinces);
+console.log("Remaining provinces count:", filteredProvinces.length);
+
 
 
   

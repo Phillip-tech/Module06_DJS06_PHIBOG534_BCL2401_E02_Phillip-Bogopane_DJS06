@@ -45,4 +45,13 @@ console.log("Names Linked to Respective Provinces:");
 names.forEach((name, index) => {
   console.log(`${name} (${provinces[index] || "No province"})`);
 });
+
+// Uppercase Transformation using map:
+
+console.log("\nUppercase Transformation:");
+const provincesInUppercase = provinces.map((province) =>
+  province.toUpperCase()
+);
+console.log("Provinces in Uppercase:", provincesInUppercase);
+
   

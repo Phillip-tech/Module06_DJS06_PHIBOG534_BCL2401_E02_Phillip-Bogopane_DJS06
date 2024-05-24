@@ -54,4 +54,11 @@ const provincesInUppercase = provinces.map((province) =>
 );
 console.log("Provinces in Uppercase:", provincesInUppercase);
 
+// Name Lengths using map:
+
+console.log("\nName Lengths:");
+const nameLengths = names.map((name) => name.length);
+console.log("Length of names:", nameLengths);
+
+
   

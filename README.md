@@ -44,15 +44,15 @@ This project has been an incredibly valuable learning experience for me. I feel 
 
 ### Exercises DJS06 PROJECT | HIGHER ORDER FUNCTIONS
 
-1. **ForEach Basics**: We use `forEach` to iterate over arrays and perform specific actions. In this exercise, we log each name and province to the console, followed by logging each name with its matching province in the format "Name (Province)".
+1. **ForEach Basics**: I used `forEach` to iterate over arrays and perform specific actions. In this exercise, it logs each name and province to the console, followed by logging each name with its matching province in the format "Name (Province)".
 
-2. **Uppercase Transformation**: By using `map`, we create a new array of province names in uppercase and log the resulting array.
+2. **Uppercase Transformation**: By using `map`, it creates a new array of province names in uppercase and log the resulting array.
 
-3. **Name Lengths**: With `map`, we create an array containing the length of each name in the `names` array.
+3. **Name Lengths**: With `map`, It creates an array containing the length of each name in the `names` array.
 
 4. **Sorting**: Sorting provinces alphabetically using the `sort` method.
 
-5. **Filtering Cape**: We use `filter` to remove provinces containing the word "Cape" and then display the count of remaining provinces.
+5. **Filtering Cape**:The use of `filter` remove provinces containing the word "Cape" and then display the count of remaining provinces.
 
 6. **Finding 'S'**: Creating a boolean array with `map` and `some` to check if a name contains the letter 'S'.
 

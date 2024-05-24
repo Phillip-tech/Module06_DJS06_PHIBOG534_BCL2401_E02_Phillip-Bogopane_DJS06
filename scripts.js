@@ -60,5 +60,12 @@ console.log("\nName Lengths:");
 const nameLengths = names.map((name) => name.length);
 console.log("Length of names:", nameLengths);
 
+// Sorting using sort:
+
+console.log("\nSorting:");
+const sortedProvinces = [...provinces].sort();
+console.log("Alphabetically sorted provinces:", sortedProvinces);
+
+
 
   
